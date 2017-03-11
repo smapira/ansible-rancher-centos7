@@ -1,7 +1,6 @@
 ---
 - hosts: centos7
   remote_user: root
-  become: true
   roles:
     - sshd
     - firewalld
