@@ -1,0 +1,5 @@
+[centos7]
+centos7 ansible_ssh_host=tk2-228-23543.vs.sakura.ne.jp
+
+[centos7:vars]
+ansible_ssh_user=root

@@ -1,0 +1,16 @@
+---
+- name: wget
+  yum: name=wget state=latest
+
+- name: git
+  yum: name=git state=latest
+
+- name: docker
+  yum: name=docker state=latest
+
+- name: start docker.service
+  shell: systemctl start docker
+
+- name: enable docker.service
+  shell: systemctl enable docker
+
